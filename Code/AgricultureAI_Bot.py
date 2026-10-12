@@ -975,7 +975,7 @@ def chat_page():
     with top_left:
         st.markdown("""<div class='chat-heading'>
             <div class='hero-kicker'>AI ASSISTANCE / AGRICULTURE ADVISOR</div>
-            <h1>🌾 Agriculture AI Assistant</h1>
+            <h1> Agriculture AI Assistant</h1>
             <p>Ask about crops, agricultural practices, and government schemes.</p>
         </div>""", unsafe_allow_html=True)
     with top_right:
