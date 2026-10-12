@@ -1,0 +1,36 @@
+# Frontend
+streamlit>=1.40,<2.0
+streamlit-mic-recorder>=0.0.8
+
+# LangChain & LangSmith
+langchain>=0.3,<2.0
+langchain-community>=0.3,<1.0
+langchain-openai>=0.2,<2.0
+langchain-huggingface>=0.1,<2.0
+langchain-text-splitters>=0.3,<2.0
+langsmith>=0.1.125
+
+# Vector Database & Hybrid Retrieval
+faiss-cpu>=1.8
+sentence-transformers>=3.0
+rank-bm25>=0.2.2
+torch
+
+# Document Processing & Web Scraping
+pypdf>=5.0
+trafilatura>=2.0
+beautifulsoup4>=4.12
+requests>=2.32
+Pillow>=10.0
+pytesseract>=0.3.13
+
+# Audio Processing
+gTTS>=2.5
+faster-whisper>=1.1
+
+# Data Analytics
+pandas>=2.2.0
+plotly
+
+# Environment Configuration
+python-dotenv>=1.0
